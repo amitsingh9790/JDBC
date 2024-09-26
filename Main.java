@@ -16,7 +16,7 @@ public class Main {
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/JDBCDEMO","root","student");
             System.out.println("Connection Established");
 
-            //3. create statement/PreparedStatment/CollableStatement
+            //3. create statement/PreparedStatement/CollableStatement
             //ps = con.prepareStatement("CREATE TABLE Student(name VARCHAR(50), rollno INT)");
             //ps = con.prepareStatement("INSERT INTO student VALUES('Amit',103)");
             ps = con.prepareStatement("INSERT INTO student VALUES('',)");
