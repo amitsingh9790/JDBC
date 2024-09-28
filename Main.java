@@ -37,7 +37,7 @@ public class Main {
             //ResultSet rs = ps.executeQuery();
 
 //            while (rs.next()){
-//                String name2 = rs.getString("name");
+//                String name2 = rs.getString("name"); 
 //                int rollno2 = rs.getInt("rollno");
 //                System.out.println(name2+" "+rollno2);
 //            }
