@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) throws SQLException {
 //        Scanner sc = new Scanner(System.in);
 //        String name1 = sc.nextLine();
-//        int rollno1 = sc.nextInt();
+//        int rollno1 = sc.nextInt(); 
 
         Connection con = null;
         PreparedStatement ps = null;
