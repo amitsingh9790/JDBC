@@ -6,7 +6,7 @@ import java.sql.PreparedStatement;
 
 public class TransactionDemo {
     public static void main(String[] args) throws Exception{
-        Class.forName("com.mysql.cj.jdbc.Driver");
+        Class.forName("com.mysql.cj.jdbc.Driver"); 
         Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/JDBCDEMO","root","student");
 //        Statement s = con.createStatement();
         PreparedStatement ps = con.prepareStatement("Insert Into Student value(?,?)");
