@@ -10,7 +10,7 @@ public class TransactionDemo {
         Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/JDBCDEMO","root","student");
 //        Statement s = con.createStatement();
         PreparedStatement ps = con.prepareStatement("Insert Into Student value(?,?)");
-        con.setAutoCommit(false);
+        con.setAutoCommit(false); 
 
         ps.setString(1,"A");
         ps.setInt(2,101);
