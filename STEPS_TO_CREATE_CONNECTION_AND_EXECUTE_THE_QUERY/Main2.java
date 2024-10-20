@@ -12,7 +12,7 @@ public class Main2 {
                 Connection con = null;
                 PreparedStatement ps = null;
                 try{
-                    // 1. load or register the driver
+                    // 1. load or register the driver 
                     Class.forName("com.mysql.cj.jdbc.Driver");
                     System.out.println("Driver Registered");
 
